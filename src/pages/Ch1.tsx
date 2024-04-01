@@ -27,6 +27,45 @@ const Ch1 = () => {
     dictionary: "Dictionary"
   }
   console.log(dict.dictionary)
+
+   // Arithmetic Operators
+   let j = 10;
+   let k = 4;
+   console.log("A + b = ", j+k);
+   console.log("A - b = ", j-k);
+   console.log("A * b = ", j*k);
+   console.log("A / b = ", j/k);
+   console.log("A ** b = ", j**k);
+   console.log("A % b = ", j%k);
+   console.log("A++ = ", j++);
+   console.log("++A = ", ++j);
+   console.log("A-- = ", j--);
+   console.log("--A = ", --j);
+   console.log("A = ", j);
+
+   // Assignment Operator
+   let assignment = 1; 
+   assignment += 10;
+   console.log("A is Now =",assignment)
+   assignment -= 10;
+   console.log("A is Now =",assignment)
+   assignment *= 10;
+   console.log("A is Now =",assignment)
+   assignment /= 10;
+   console.log("A is Now =",assignment)
+
+   // Comparison Operators
+   let comp1 = 5;
+   let comp2 = 7;
+   console.log("comp1 == comp2",comp1 == comp2);
+   console.log("comp1 != comp2",comp1 != comp2);
+   console.log("comp1 === comp2",comp1 === comp2);
+   console.log("comp1 !== comp2",comp1 !== comp2);
+
+   // Logical Operators
+   let x = 5;
+   let y = 6;
+   console.log(x<y && x==y)
   return (
     <div>Ch1</div>
 

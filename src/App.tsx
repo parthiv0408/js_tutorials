@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Ch1 from './pages/Ch1'
+import Ch2 from './pages/Ch2'
+import  Conditional from './pages/Conditional'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,10 +19,10 @@ function App() {
   // const c = null
   // const d = undefined
 
-  {
-    const b = "this"
-    console.log(b)
-  }
+  // {
+  //   const b = "this"
+  //   console.log(b)
+  // }
 
   // console.log(b)
   // console.log(a)
@@ -64,7 +66,8 @@ function App() {
 
   return (
     <>
-      <Ch1 />
+      {/* <Ch1 /> */}
+      < Conditional/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
