@@ -38,8 +38,23 @@ if(num%2==0 && num%3==0){
   console.log("Your number is not divisible by 2 and 3");
 }
    */
+// let sum =0;
+// let b = prompt("Enter sum value: ");
+// const n = Number.parseInt(b);
+// for(let i=0;i<b;i++){
+//   sum += (i+1);
+// }
+// console.log("Sum First"+ b +"number is" + sum) 
 
-
+let array = [-10, -0.20, 0.30, -40, -50];
+ 
+// Method (return element > 0).
+let found = array.find(function (element) {
+    return element > 0;
+});
+ 
+// Printing desired values.
+console.log(found);
   return (
     <div>
        <div>Ch2</div>
