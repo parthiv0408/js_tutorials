@@ -29,6 +29,20 @@ console.log("hello",a<18?"not":"Yes")
 //     console.log(`Sorry, we are out of ${expr}.`);
 // }
 
+function greet() {
+    console.log("Hello World!");
+}
+
+let displayPI = function() {
+    console.log("PI = 3.14");
+}
+
+
+greet();
+
+
+displayPI();
+
   return (
     <div>
        Conditional
