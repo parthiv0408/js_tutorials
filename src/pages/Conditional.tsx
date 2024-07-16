@@ -36,6 +36,18 @@ function findLargestElement(nestedArray) {
 
   return largest;
 
+function isOdd(number) {
+    return number % 2 !== 0;
+}
+
+function isEven(number) {
+    return number % 2 === 0;
+}
+
+console.log(isOdd(5));  // true
+console.log(isEven(10)); // true
+
+
 }
 
 
