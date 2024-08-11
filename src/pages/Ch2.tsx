@@ -9,7 +9,7 @@ const Ch2 = () => {
     // }else{
     //   console.log("Your age dosent lies between 10 and 20");
     // }
-/*
+
     console.log("2: Demonstarte the use of switch cash statement in javascript");
     let age = prompt("What is your age?");
     switch (age) {
@@ -27,8 +27,8 @@ const Ch2 = () => {
         console.log("Your age is not special")
         break;
     }
-  */
- /*
+
+
     console.log("3: Write a javascript program to find a number is divisable by 2 and 3"); 
 let num = prompt("What is your Number?");
 num = Number.parseInt(num);
